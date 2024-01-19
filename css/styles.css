@@ -10,6 +10,47 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+.language:hover {
+  animation: pulse 1s infinite;
+}
+
+.py-logo:hover {
+  color: rgb(66, 122, 243);
+}
+
+.js-logo:hover {
+  color: rgb(215, 215, 14);
+}
+
+.react-logo:hover {
+  color: rgb(39, 187, 241);
+}
+
+.css-logo:hover {
+  color: rgb(13, 94, 175);
+}
+
+.html-logo:hover {
+  color: rgb(227, 76, 38);
+}
+
+.git-logo:hover {
+  color: rgb(202, 91, 54);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

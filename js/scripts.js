@@ -5,7 +5,16 @@
 */
 //
 // Scripts
-// 
+//
+// function addHoverClass(element) {
+//     // element.classList.add('fa-spin');
+//     console.log(element.classList);
+//   }
+
+//   function removeHoverClass(element) {
+//     // element.classList = ['svg-inline--fa', 'fa-python', 'fa-stack-1x']
+//     console.log(element.classList);
+//   }
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -23,7 +32,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     };
 
-    // Shrink the navbar 
+    // Shrink the navbar
     navbarShrink();
 
     // Shrink the navbar when page is scrolled
