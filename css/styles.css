@@ -11357,8 +11357,6 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .portfolio-link {
-  max-width: 336px;
-  max-height: 252px;
   object-fit: contain;
   overflow: hidden;
 }
