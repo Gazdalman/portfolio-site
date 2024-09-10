@@ -39,6 +39,14 @@
   color: rgb(202, 91, 54);
 }
 
+.sql-logo:hover{
+  color: rgb(227, 135, 48)
+}
+
+.java-logo:hover{
+  color: rgb(228, 48, 48)
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
